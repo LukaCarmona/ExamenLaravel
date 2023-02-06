@@ -57,3 +57,29 @@ añadir los controllers necesrios
 
 use App\Http\Controllers\NombreController;
 use App\Http\Controllers\NombreController;
+
+---
+
+# laravel
+
+## archivos:
+
+### imágenes:
+
+-   Laravel-Comandos.png
+    Todos los comandos de artisan y laravel
+-   Laravel-Relaciones.png
+    Tabla con funciones de relaciones de larave (hasMany, belongsTo...)
+
+### pdf:
+
+-   Laravel-BD-y-autenticacion.pdf
+    SI PIDE AUTENTICACIÓN HAY QUE HACER ESTO PRIMERO
+-   Laravel-Ejemplo-tabla-alumnos.pdf
+    Casi todos los comandos y cosas que puede pedir
+-   Laravel-Resumen-ejemplo.pdf
+    Ejemplo de modelo, migración, rutas... para una tabla
+-   Laravel-Middleware.pdf
+    Todo lo de middleware paso a paso
+-   Laravel-Routes-y-Controller.pdf
+    Resumen con todos los tipos de rutas y métodos para CRUD
