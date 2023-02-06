@@ -14,6 +14,7 @@ class Alumno extends Model
     protected $fillable = ['nombre_apellido', 'edad', 'tel', 'dir', 'foto'];
     protected $hidden = ['id'];
 
+    // para relacionar dos tablas
     public function cursos()
     {
         return $this->belongsToMany(Curso::class, 'alumno_curso');

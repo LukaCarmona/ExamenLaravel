@@ -14,6 +14,7 @@ class Curso extends Model
     protected $fillable = ['nombre', 'nivel', 'horas', 'id_profesor'];
     protected $hidden = ['id'];
 
+    // para relacionar dos tablas
     public function profesor()
     {
         return $this->belongsTo(Profesor::class, 'foreign_key');

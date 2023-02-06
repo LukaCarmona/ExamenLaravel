@@ -8,6 +8,7 @@
             <li><a href="{{ route('alumnos.index') }}">Alumnos</a></li>
             <li><a href="{{ route('profesores.index') }}">Profesores</a></li>
             <li><a href="{{ route('cursos.index') }}">alumnos</a></li>
+            <li><a href="{{ route('sesion.index') }}">Iniciar-Sesion</a></li>
         </ul>
     </nav>
 @endsection

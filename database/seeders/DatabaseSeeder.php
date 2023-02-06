@@ -7,6 +7,7 @@ use App\Models\Alumno;
 use App\Models\Profesor;
 use App\Models\AlumnoCurso;
 use Illuminate\Database\Seeder;
+use App\Models\Sesion;
 
 class DatabaseSeeder extends Seeder
 {
@@ -21,5 +22,7 @@ class DatabaseSeeder extends Seeder
         Profesor::factory(25)->create();
         Curso::factory(25)->create();
         AlumnoCurso::factory(600)->create();
+        Sesion::factory(25)->create();
+
     }
 }
